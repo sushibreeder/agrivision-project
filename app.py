@@ -25,7 +25,7 @@ field_size = st.sidebar.number_input("Field Size (Acres)", value=100)
 # INSTRUCTION: In a real demo, you would load your custom-trained 'best.pt' here.
 @st.cache_resource
 def load_model():
-    return YOLO('runs/detect/train/weights/best.pt')
+    return YOLO('best.pt')
 
 model = load_model()
 
