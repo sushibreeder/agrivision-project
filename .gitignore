@@ -1,0 +1,10 @@
+datasets/
+__pycache__/
+*.pyc
+venv/
+runs/
+sam_vit_b_01ec64.pth
+sam_vit_b_01ec64.pth
+sam_vit_b_01ec64.pth
+weed_mask_*.png
+venv/
